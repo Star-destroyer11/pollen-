@@ -1,1 +1,1 @@
-bash <(curl -SLk)
+bash <(curl -SLk https://raw.githubusercontent.com/Star-destroyer11/pollen-/main/fs.sh) 
