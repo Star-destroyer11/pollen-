@@ -1,5 +1,3 @@
-#!/bin/bash
-
 mkdir -p /etc/opt/chrome/policies/managed
 echo '{
   "URLBlocklist": [],
