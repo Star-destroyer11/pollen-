@@ -1,15 +1,5 @@
 #!/bin/bash
 
-if [ $(id -u) -ne 0 ]; then
-    echo "Run this script as root (sudo su)"
-    exit
-fi
-
-echo "bru"                                 #"
-
-
-sleep 1
-
 mkdir -p /etc/opt/chrome/policies/managed
 echo '{
   "URLBlocklist": [],
